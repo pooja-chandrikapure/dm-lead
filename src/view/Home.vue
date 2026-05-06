@@ -58,7 +58,7 @@
                 <br /><br />
                 🔥 Forex Is Not Luck — It’s Strategy & Execution.  
                 <br /><br />
-                💸 While Most People Watch The Market… 
+                💸 While Most People Watch The Market.
                 <br /><br />
                 
                 <!-- <span class="text-black font-semibold bg-[#ffff99] rounded-md px-2">Dollar Machine Members Are Already Making Profits.</span> -->
