@@ -44,7 +44,8 @@
                 
             </div>
             <!-- Important Warning -->
-            <div class="bg-red-500/10 border border-red-500/30 rounded-lg p-3 mt-5 text-sm text-white text-center">
+            <!-- <div class="bg-red-500/10 border border-red-500/30 rounded-lg p-3 mt-5 text-sm text-white text-center"> -->
+            <div class="border border-red-500/30 rounded-lg p-3 mt-5 text-sm text-white text-center">
                 <!-- ⚠️ <span class="font-semibold">IMPORTANT:</span> Don’t Miss This Step  
                 <br /><br />
                 Most users click the button but forget to tap <b>"JOIN"</b> inside Telegram  
