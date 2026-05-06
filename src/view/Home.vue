@@ -99,37 +99,37 @@
 <script setup>
 import { ref } from 'vue'
 
-// const redirectToTg = () => {
-//      if (window.fbq) {
-//         window.fbq('track', 'Subscribe')
-//     }
-//     window.open('https://t.me/+I02MJ6ksextjM2Vl', '_blank')
-// }
-
 const redirectToTg = () => {
-    const params = new URLSearchParams(window.location.search)
-    const campaign = params.get('utm_campaign')
-
-    let telegramLink = "https://t.me/+IjiQMJPvHC80YzE1"  // default (original link)
-
-    if (campaign === "camp1") {
-        telegramLink = "https://t.me/+IjiQMJPvHC80YzE1"
-    } else if (campaign === "camp2") {
-        telegramLink = "https://t.me/+Hjybh4rPtwlmNDA9"
-    } else if (campaign === "camp3") {
-        telegramLink = "https://t.me/+GQzIv4RSU6JmMTg1"
-    } else if (campaign === "camp4") {
-        telegramLink = "https://t.me/+QT3dXl4mw0I4OTBl"
+     if (window.fbq) {
+        window.fbq('track', 'Subscribe')
     }
-
-    if (window.fbq) {
-        window.fbq('track', 'Subscribe', {
-            campaign: campaign || "default"
-        })
-    }
-
-    window.open(telegramLink, '_blank')
+    window.open('https://t.me/+lNN8j2OF1xRhMDZl', '_blank')
 }
+
+// const redirectToTg = () => {
+//     const params = new URLSearchParams(window.location.search)
+//     const campaign = params.get('utm_campaign')
+
+//     let telegramLink = "https://t.me/+lNN8j2OF1xRhMDZl"  // default (original link)
+
+//     if (campaign === "camp1") {
+//         telegramLink = "https://t.me/+lNN8j2OF1xRhMDZl"
+//     } else if (campaign === "camp2") {
+//         telegramLink = "https://t.me/+Hjybh4rPtwlmNDA9"
+//     } else if (campaign === "camp3") {
+//         telegramLink = "https://t.me/+GQzIv4RSU6JmMTg1"
+//     } else if (campaign === "camp4") {
+//         telegramLink = "https://t.me/+QT3dXl4mw0I4OTBl"
+//     }
+
+//     if (window.fbq) {
+//         window.fbq('track', 'Subscribe', {
+//             campaign: campaign || "default"
+//         })
+//     }
+
+//     window.open(telegramLink, '_blank')
+// }
 const patternIcons = ['📊', '💰', '📈', '🎯', '⚡', '💹', '📋', '⏰', '🔔', '💎']
 </script>
 
