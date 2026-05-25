@@ -104,7 +104,7 @@ const redirectToTg = () => {
      if (window.fbq) {
         window.fbq('track', 'Subscribe')
     }
-    window.open('https://t.me/+lNN8j2OF1xRhMDZl', '_blank')
+    window.open('https://t.me/+PyHLhd8LcsNiZWQ1', '_blank')
 }
 
 // const redirectToTg = () => {
