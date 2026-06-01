@@ -69,6 +69,7 @@
             <p class="text-white text-center my-5 font-medium">
                 👇 Click below to open Telegram
             </p>
+            
             <!-- Join Button -->
             <div class="flex justify-center">
                 <button @click="redirectToTg"
@@ -79,6 +80,9 @@
                     </div>
                 </button>
             </div>
+            <p class="text-center my-6 font-medium text-red-400 text-2xl">
+                    Invitation closes in {{ countdown }}s
+            </p>
             <!-- Footer Note -->
             <p class="text-white/60 text-center text-xs mt-4">
                 ⚠️ Telegram will open after clicking — make sure to tap <b>"JOIN"</b>
@@ -98,7 +102,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 
 // const redirectToTg = () => {
 //      if (window.fbq) {
@@ -106,6 +110,22 @@ import { ref } from 'vue'
 //     }
 //     window.open('https://t.me/+PyHLhd8LcsNiZWQ1', '_blank')
 // }
+const START_TIME = 10; // seconds
+const countdown = ref(START_TIME);
+let timer = null;
+
+onMounted(() => {
+  timer = setInterval(() => {
+    if (countdown.value > 0) {
+      countdown.value--;
+    } else {
+      countdown.value = START_TIME; // 🔁 reset (loop)
+    }
+  }, 1000);
+});
+onUnmounted(() => {
+    clearInterval(timer);
+});
 
 const redirectToTg = () => {
     const params = new URLSearchParams(window.location.search)
