@@ -39,7 +39,9 @@
                 <span class="text-blue-400 font-semibold">👉 Key Features:</span>
             </div> -->
             <div class="space-y-2 text-white text-sm text-center ">
-                <div class=" relative bg-[#ffff99] hover:bg-[#ffff99] text-black font-bold text-[14px] py-2 px-3 rounded-sm ">💸 Turn $1K Into $10K With Our Auto Trading System </div>
+                <!-- <div class=" relative bg-[#ffff99] hover:bg-[#ffff99] text-black font-bold text-[14px] py-2 px-3 rounded-sm ">💸 Turn $1K Into $10K With Our Auto Trading System </div> -->
+                <div class=" relative bg-[#ffff99] hover:bg-[#ffff99] text-black font-bold text-[13px] py-2 px-3 rounded-sm ">💸 A Community Built Around Strategy, Discipline & Execution </div>
+
                 <!-- <div>⚡ No Stress. No Emotions. Only Market Execution.</div> -->
                 
             </div>
@@ -54,7 +56,8 @@
                 <br /><br />
                 👉 Smart traders complete the final step and get instant access -->
                 <!-- ⚠️ <span class="font-semibold">IMPORTANT:</span> Don’t Miss This Step   -->
-                 🔥 Traders Are Turning Small Accounts Into Bigger Opportunities Every Week
+                 <!-- 🔥 Traders Are Turning Small Accounts Into Bigger Opportunities Every Week -->
+                  Traders Are Exploring Market Opportunities Every Week
                 <br /><br />
                 🔥 Forex Is Not Luck — It’s Strategy & Execution.  
                 <br /><br />
@@ -62,7 +65,9 @@
                 <br /><br />
                 
                 <!-- <span class="text-black font-semibold bg-[#ffff99] rounded-md px-2">Dollar Machine Members Are Already Making Profits.</span> -->
-                <span class="text-[#33ffbb] font-semibold">Dollar Machine Members Are Already Making Profits.</span>
+                <!-- <span class="text-[#33ffbb] font-semibold">Dollar Machine Members Are Already Making Profits.</span> -->
+                <span class="text-[#33ffbb] font-semibold">Dollar Machine Members Are Already Exploring Market Opportunities.</span>
+
 
             </div>
             <!-- CTA Text -->
